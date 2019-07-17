@@ -11,5 +11,9 @@ module.exports = {
     '@nuxtjs'
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    'no-console': 'off',
+    'no-eval': 'off',
+    'vue/no-reserved-keys': 'off'
+  }
 }
